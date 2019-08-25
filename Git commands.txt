@@ -6,3 +6,4 @@ $ git config --global alias.co checkout
 $ git init
 
 change
+change that done in github
