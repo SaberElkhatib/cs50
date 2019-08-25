@@ -1,0 +1,6 @@
+Initializing Git For Version Control (First time for each project)
+$ git config --global user.name "Saber Elkhatib"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
