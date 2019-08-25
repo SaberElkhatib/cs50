@@ -7,3 +7,5 @@ $ git init
 
 change
 change that done in github
+
+new change in PC
