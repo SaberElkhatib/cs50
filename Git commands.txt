@@ -15,3 +15,7 @@ $git merge (to merge the files on your PC with the files on github)
 $git branch (to check the branches and a start will be beside the branch you are in)
 $git branch feature (to create a new branch with the name feature)
 $git checkout feature (to move from the current branch to another branch called feature "that branch should be already exists")
+
+$git merge feature (to merge the freature branch with master branch assuming that I am on the master branch now)
+$ git push --set-upstream origin feature (to upload the "feature" branch to github)
+
