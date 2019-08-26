@@ -5,8 +5,7 @@ $ git config --global push.default matching
 $ git config --global alias.co checkout
 $ git init
 
-change
-change that done in github
-
-new change in PC
-another change in github
+$git log (to see the log of the commits)
+$git reflog
+$git reset --hard <commit>    (to reset
+$git reset --hard origin/master
