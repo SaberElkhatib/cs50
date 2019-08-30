@@ -1,7 +1,7 @@
 
-/*div {
+div {
   border: 1px solid black;
-}*/
+}
 #headline {
   color: red;
 }
@@ -28,7 +28,7 @@
 }
 .navigation ul li {
   list-style: none;
-  display: inline-flex;
+  /*display: inline-block;*/
   background-color: #a4c9e8;
   padding: 5px;
   border-radius: 5px;
@@ -84,4 +84,25 @@ table {
 table th,td {
   border: 1px solid black;
 
+}
+
+/* Styling the drop down menue*/
+.mainMenue {
+  display: inline-block;
+  position: absolute;
+}
+.mainMenue li {
+  display: inline-block;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  margin-left: -20px;
+}
+.dropdown li {
+  display: block;
+}
+.mainMenue li:hover .dropdown {
+  display: block;
 }

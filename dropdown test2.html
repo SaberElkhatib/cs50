@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdown test</title>
+  <style>
+  .mainMenue {
+    position: absolute; /* to make the main menue list items to not move around while hovering over it*/
+  }
+
+  /* to make the main menu displayed in one line*/
+  .mainMenue li {
+   display: inline-block;
+  }
+
+  /* to make the dropdown menu hidden, and to give it absolute position*/
+    .Dropdown {
+      display: none;
+      position: absolute; /* to make the dropdown shown under the main menue list items*/
+    }
+    .mainMenue li:hover .Dropdown{
+      display: block; /* to make the dropdown to be shown as list*/
+    }
+  </style>
+</head>
+<body>
+  <ul class="mainMenue">
+    <li>Item 1
+      <ul class="Dropdown">
+        <li>Item 1.1</li>
+        <li>Item 1.2</li>
+        <li>Item 1.3</li>
+      </ul>
+    </li>
+
+    <li>Item 2
+      <ul class="Dropdown">
+        <li>Item 2.1</li>
+        <li>Item 2.2</li>
+        <li>Item 2.3</li>
+      </ul>
+    </li>
+
+    <li>Item 3
+      <ul class="Dropdown">
+        <li>Item 3.1</li>
+        <li>Item 3.2</li>
+        <li>Item 3.3</li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
