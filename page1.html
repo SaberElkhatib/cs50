@@ -65,8 +65,31 @@
       </ul>
   </div>
   <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <img src="images/Lotus1.jpg" alt="Lotus1">
+    <pre>
+      Initializing Git For Version Control (First time for each project)
+$ git config --global user.name "Saber Elkhatib"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
+
+$git log (to see the log of the commits)
+$git reflog
+$git reset --hard <commit hash (the refrence for the commit)>    (to reset
+$git reset --hard origin/master (get reset to the very first reposotory)
+$git merge (to merge the files on your PC with the files on github)
+		(confilects may raise, so it needed to be resolved in the text editor to choose which code you will keep and delete the other, then git push)
+
+$git branch (to check the branches and a start will be beside the branch you are in)
+$git branch feature (to create a new branch with the name feature)
+$git checkout feature (to move from the current branch to another branch called feature "that branch should be already exists")
+
+$git merge feature (to merge the freature branch with master branch assuming that I am on the master branch now)
+$ git push --set-upstream origin feature (to upload the "feature" branch to github)
+
+
+    </pre>
+  <img src="images/Lotus1.jpg" alt="Lotus1">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   </div>
